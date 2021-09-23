@@ -1,5 +1,5 @@
 class Ground {
-    constructor(x,y,width,height) {
+    constructor(x,y,width,height,) {
       var options = {
           isStatic: true
       }
@@ -13,5 +13,7 @@ class Ground {
       rectMode(CENTER);
       fill("brown");
       rect(pos.x, pos.y, this.width, this.height);
+      
+
     }
   };
